@@ -7,5 +7,5 @@ package com.l3vi.multidatasource;
  */
 public enum SourceTypeEnum {
     LOW,
-    HIGH;
+    HIGH
 }

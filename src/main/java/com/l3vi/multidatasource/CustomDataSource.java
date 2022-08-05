@@ -11,6 +11,7 @@ public class CustomDataSource extends AbstractRoutingDataSource {
 
     @Override
     protected Object determineCurrentLookupKey() {
-        return DataSoutceContextHolder.getSourceName();
+//        return DataSoutceContextHolder.getSourceName();
+        return DataSourceStackContextHolder.peek();
     }
 }

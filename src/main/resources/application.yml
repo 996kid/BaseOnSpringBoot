@@ -27,3 +27,5 @@ spring:
         password: N5AFzUgI3uDml4zk
         url: jdbc:mysql://192.168.1.69:3306/v5_test?tinyInt1isBit=false&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&autoReconnectForPools=true&zeroDateTimeBehavior=convertToNull&useSSL=false&allowMultiQueries=true&serverTimezone=GMT%2B8
         driver-class-name: com.mysql.cj.jdbc.Driver
+  main:
+    allow-circular-references: true

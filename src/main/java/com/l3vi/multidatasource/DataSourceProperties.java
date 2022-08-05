@@ -58,6 +58,7 @@ public class DataSourceProperties {
         Map<Object, Object> targetDataSources = new HashMap<>();
         targetDataSources.put(SourceTypeEnum.LOW, lowDataSource);
         targetDataSources.put(SourceTypeEnum.HIGH, highDataSource);
+        // 维护一个 key 和 数据源的映射
         customDataSource.setTargetDataSources(targetDataSources);
         customDataSource.setDefaultTargetDataSource(lowDataSource);
         return customDataSource;
